@@ -1,5 +1,5 @@
-import type { Notebook } from "../types/backend";
-import api from "./api";
+import type { Notebook } from "@/types/backend";
+import api from "@/utils/api";
 
 export const createNotebook = async (data: Notebook) => {
     return await api.post("/notebook", data);

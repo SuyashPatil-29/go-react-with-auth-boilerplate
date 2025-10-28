@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import type { AuthenticatedUser } from "../types/backend";
-import { getCurrentUser } from "../utils/auth";
+import type { AuthenticatedUser } from "@/types/backend";
+import { getCurrentUser } from "@/utils/auth";
 
 export const useUser = () => {
     const [user, setUser] = useState<AuthenticatedUser | null>(null);

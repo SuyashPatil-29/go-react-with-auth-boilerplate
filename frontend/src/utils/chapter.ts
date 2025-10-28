@@ -1,4 +1,4 @@
-import api from "./api";
+import api from "@/utils/api";
 
 export const createChapter = async (data: any) => {
     return await api.post("/chapter", data);

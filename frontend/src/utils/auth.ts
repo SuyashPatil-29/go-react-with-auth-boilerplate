@@ -1,5 +1,5 @@
-import type { AuthenticatedUser } from '../types/backend';
-import api from './api';
+import type { AuthenticatedUser } from '@/types/backend';
+import api from '@/utils/api';
 
 const API_BASE_URL = 'http://localhost:8080';
 
