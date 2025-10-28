@@ -148,7 +148,7 @@ function App() {
                 </Button>
               </div>
 
-              <div className="bg-card border border-border rounded-lg p-6 space-y-3 opacity-50">
+              <div className="bg-card border border-border rounded-lg p-6 space-y-3">
                 <div className="space-y-1">
                   <h3 className="text-lg font-semibold text-card-foreground">Recent Notes</h3>
                   <p className="text-sm text-muted-foreground">
@@ -160,7 +160,7 @@ function App() {
                 </Button>
               </div>
 
-              <div className="bg-card border border-border rounded-lg p-6 space-y-3 opacity-50">
+              <div className="bg-card border border-border rounded-lg p-6 space-y-3">
                 <div className="space-y-1">
                   <h3 className="text-lg font-semibold text-card-foreground">Search</h3>
                   <p className="text-sm text-muted-foreground">
